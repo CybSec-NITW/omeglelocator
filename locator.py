@@ -2,8 +2,8 @@ from scapy.all import *
 import requests
 import json
 
-#ipad = input("Enter Your ip address: ")
-ipad = '192.168.43.145'
+ipad = input("Enter Your ip address: ")
+#hardcode the ip addr so avoid getting 
 sniffer = sniff(filter="udp",count=1)
 pkt = sniffer[0]
 if str(pkt[IP].src) == str(ipad):
