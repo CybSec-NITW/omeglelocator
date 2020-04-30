@@ -1,7 +1,7 @@
-# omeglelocator
+# Omeglelocator
 The Following tool is locate the stranger through IP address while Video Chatting
 
-*Instructions:-
+Instructions:-
 
 Run the python script as Root or Administrator
 
